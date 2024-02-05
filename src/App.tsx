@@ -75,7 +75,7 @@ const SubjectsGrid: React.FC = () => {
                       <div className="flex justify-between w-full">
                         <p className="text-sm font-mono">{subject.code}</p>
                         <p className="text-sm font-mono text-right">
-                          {subject.workload}
+                          {subject.workload}h
                         </p>
                       </div>
                     </div>

@@ -1,0 +1,462 @@
+{
+    "subjects": [
+        {
+            "code": "EADGRD-ADS-0003",
+            "name": "Arquitetura e Organização de Computadores",
+            "workload": 90,
+            "semester": 1,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-ADS-0005",
+            "name": "Desafio de Ciência de Dados e Inteligência Artificial",
+            "workload": 30,
+            "semester": 1,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-NGR-0002",
+            "name": "Cálculo Vetorial - Diferencial e Integral",
+            "workload": 60,
+            "semester": 1,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-NGR-0005",
+            "name": "Elementos de Comunicação",
+            "workload": 30,
+            "semester": 1,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-NGR-0006",
+            "name": "Elementos de Matemática",
+            "workload": 30,
+            "semester": 1,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-NGR-0013",
+            "name": "Práticas Integradas: Análise de Dados",
+            "workload": 105,
+            "semester": 1,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-ACE-0001",
+            "name": "Desafio Empreendedor",
+            "workload": 15,
+            "semester": 2,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-ADS-0001",
+            "name": "Algoritmos e Estrutura de Dados",
+            "workload": 90,
+            "semester": 2,
+            "prerequisites": [
+                "EADGRD-NGR-0013"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0032",
+            "name": "Teoria da Computação",
+            "workload": 30,
+            "semester": 2,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-GES-0001",
+            "name": "Análise Inferencial de Dados",
+            "workload": 60,
+            "semester": 2,
+            "prerequisites": [
+                "EADGRD-NGR-0002"
+            ]
+        },
+        {
+            "code": "EADGRD-NGR-0001",
+            "name": "Cálculo em Várias Variáveis",
+            "workload": 60,
+            "semester": 2,
+            "prerequisites": [
+                "EADGRD-NGR-0002",
+                "EADGRD-NGR-0006"
+            ]
+        },
+        {
+            "code": "EADGRD-NGR-0015",
+            "name": "Práticas Integradas: Programação em Ciências Básicas",
+            "workload": 105,
+            "semester": 2,
+            "prerequisites": [
+                "EADGRD-NGR-0002",
+                "EADGRD-NGR-0006",
+                "EADGRD-NGR-0013"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0008",
+            "name": "Estatística Aplicada à Data Science",
+            "workload": 60,
+            "semester": 3,
+            "prerequisites": [
+                "EADGRD-GES-0001"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0019",
+            "name": "Introdução à Inteligência Artificial",
+            "workload": 30,
+            "semester": 3,
+            "prerequisites": [
+                "EADGRD-ADS-0001",
+                "EADGRD-GES-0001"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0025",
+            "name": "Programação Orientada à Objeto",
+            "workload": 60,
+            "semester": 3,
+            "prerequisites": [
+                "EADGRD-ADS-0001"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0033",
+            "name": "Teoria dos Grafos",
+            "workload": 30,
+            "semester": 3,
+            "prerequisites": [
+                "EADGRD-ADS-0001"
+            ]
+        },
+        {
+            "code": "EADGRD-NGR-0003",
+            "name": "Desafio Pesquisador",
+            "workload": 15,
+            "semester": 3,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-NGR-0007",
+            "name": "Modelagem Matemática de Fenômenos",
+            "workload": 60,
+            "semester": 3,
+            "prerequisites": [
+                "EADGRD-NGR-0001"
+            ]
+        },
+        {
+            "code": "EADGRD-NGR-0014",
+            "name": "Práticas Integradas: Meio Ambiente e Sociedade",
+            "workload": 105,
+            "semester": 3,
+            "prerequisites": [
+                "EADGRD-NGR-0005",
+                "EADGRD-NGR-0013"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0007",
+            "name": "Engenharia de Software - Qualidade e Testes",
+            "workload": 60,
+            "semester": 4,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-ADS-0017",
+            "name": "Inteligência Artificial I",
+            "workload": 30,
+            "semester": 4,
+            "prerequisites": [
+                "EADGRD-ADS-0008",
+                "EADGRD-ADS-0019"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0022",
+            "name": "Modelagem de Dados",
+            "workload": 90,
+            "semester": 4,
+            "prerequisites": [
+                "EADGRD-ADS-0001"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0029",
+            "name": "Sistemas Embarcados",
+            "workload": 60,
+            "semester": 4,
+            "prerequisites": [
+                "EADGRD-ADS-0003"
+            ]
+        },
+        {
+            "code": "EADGRD-NGR-0004",
+            "name": "Desafio Técnico-gestor",
+            "workload": 15,
+            "semester": 4,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-NGR-0008",
+            "name": "Optativa",
+            "workload": 30,
+            "semester": 4,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-RED-0001",
+            "name": "Arquitetura - Interconexão e Comutação de Redes TI e TA",
+            "workload": 90,
+            "semester": 4,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-ADS-0002",
+            "name": "Alta Qualidade em Software",
+            "workload": 60,
+            "semester": 5,
+            "prerequisites": [
+                "EADGRD-ADS-0007"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0006",
+            "name": "Desenvolvimento Full Stack",
+            "workload": 90,
+            "semester": 5,
+            "prerequisites": [
+                "EADGRD-ADS-0022",
+                "EADGRD-ADS-0025"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0010",
+            "name": "Fundamentos em Big Data",
+            "workload": 60,
+            "semester": 5,
+            "prerequisites": [
+                "EADGRD-ADS-0022"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0018",
+            "name": "Inteligência Artificial II",
+            "workload": 60,
+            "semester": 5,
+            "prerequisites": [
+                "EADGRD-ADS-0017"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0030",
+            "name": "Sistemas Operacionais",
+            "workload": 60,
+            "semester": 5,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-NGR-0009",
+            "name": "Orientações I - Trilha de Formação",
+            "workload": 15,
+            "semester": 5,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-NGR-0016",
+            "name": "Optativa I - Trilha de Formação",
+            "workload": 30,
+            "semester": 5,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-ADS-0009",
+            "name": "Ética - Explicabilidade e Interpretabilidade em IA",
+            "workload": 30,
+            "semester": 6,
+            "prerequisites": [
+                "EADGRD-ADS-0017"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0020",
+            "name": "Machine Learning e Deep Learning",
+            "workload": 60,
+            "semester": 6,
+            "prerequisites": [
+                "EADGRD-ADS-0018"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0023",
+            "name": "Práticas Integradas: Full Cycle",
+            "workload": 105,
+            "semester": 6,
+            "prerequisites": [
+                "EADGRD-ADS-0029"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0024",
+            "name": "Processamento e Análise para Big Data",
+            "workload": 60,
+            "semester": 6,
+            "prerequisites": [
+                "EADGRD-ADS-0010"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0028",
+            "name": "Sistemas Distribuídos e Programação Paralela",
+            "workload": 60,
+            "semester": 6,
+            "prerequisites": [
+                "EADGRD-ADS-0025"
+            ]
+        },
+        {
+            "code": "EADGRD-NGR-0010",
+            "name": "Orientações II - Trilha de Formação",
+            "workload": 15,
+            "semester": 6,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-NGR-0017",
+            "name": "Optativa II - Trilha de Formação",
+            "workload": 30,
+            "semester": 6,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-ADS-0011",
+            "name": "IA aplicada para Reconhecimento de Padrão",
+            "workload": 60,
+            "semester": 7,
+            "prerequisites": [
+                "EADGRD-ADS-0020"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0012",
+            "name": "IA aplicada para Análise de Séries Temporais",
+            "workload": 60,
+            "semester": 7,
+            "prerequisites": [
+                "EADGRD-ADS-0020"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0013",
+            "name": "IA aplicada para Processamento de Linguagem Natural",
+            "workload": 60,
+            "semester": 7,
+            "prerequisites": [
+                "EADGRD-ADS-0020"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0014",
+            "name": "IA aplicada para Visão Computacional",
+            "workload": 60,
+            "semester": 7,
+            "prerequisites": [
+                "EADGRD-ADS-0020"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0031",
+            "name": "Supercomputação",
+            "workload": 60,
+            "semester": 7,
+            "prerequisites": [
+                "EADGRD-ADS-0028"
+            ]
+        },
+        {
+            "code": "EADGRD-NGR-0011",
+            "name": "Orientações III - Trilha de Formação",
+            "workload": 15,
+            "semester": 7,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-NGR-0018",
+            "name": "Optativa III - Trilha de Formação",
+            "workload": 30,
+            "semester": 7,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-ADS-0004",
+            "name": "Computação Distribuída e Blockchain",
+            "workload": 30,
+            "semester": 8,
+            "prerequisites": [
+                "EADGRD-ADS-0031"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0015",
+            "name": "IA e IoT",
+            "workload": 60,
+            "semester": 8,
+            "prerequisites": [
+                "EADGRD-ADS-0020"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0016",
+            "name": "IA para Líderes",
+            "workload": 30,
+            "semester": 8,
+            "prerequisites": [
+                "EADGRD-ADS-0020"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0021",
+            "name": "Mineração de Dados",
+            "workload": 60,
+            "semester": 8,
+            "prerequisites": [
+                "EADGRD-ADS-0022"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0026",
+            "name": "Segurança para Proteção de Dados",
+            "workload": 60,
+            "semester": 8,
+            "prerequisites": [
+                "EADGRD-RED-0001"
+            ]
+        },
+        {
+            "code": "EADGRD-ADS-0027",
+            "name": "Sistemas de Recomendação e MLOps",
+            "workload": 30,
+            "semester": 8,
+            "prerequisites": [
+                "EADGRD-ADS-0020"
+            ]
+        },
+        {
+            "code": "EADGRD-NGR-0012",
+            "name": "Orientações IV - Trilha de Formação",
+            "workload": 15,
+            "semester": 8,
+            "prerequisites": []
+        },
+        {
+            "code": "EADGRD-NGR-0019",
+            "name": "Optativa IV - Trilha de Formação",
+            "workload": 30,
+            "semester": 8,
+            "prerequisites": []
+        }
+    ]
+}

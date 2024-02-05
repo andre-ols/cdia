@@ -39,8 +39,7 @@ const SubjectsGrid: React.FC = () => {
                   "bg-white":
                     canSelectSubject(subject) && !isSelected(subject.code),
                   "bg-gray-200 text-gray-500": !canSelectSubject(subject),
-                  "cursor-pointer": canSelectSubject(subject),
-                  "cursor-not-allowed": !canSelectSubject(subject),
+                  "cursor-pointer": true,
                 });
 
                 return (
